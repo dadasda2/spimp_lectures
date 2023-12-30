@@ -5,5 +5,6 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [funcool/promesa "10.0.594"]
-                 [org.clojure/core.async "1.6.681"]]
+                 [org.clojure/core.async "1.6.681"]
+                 [me.raynes/conch "0.8.0"]]
   :repl-options {:init-ns spimp-lectures.core})

@@ -1,0 +1,15 @@
+(ns spimp-lectures.lecc8)
+;(use '[clojure.java.shell :only [sh]])
+(require '[me.raynes.conch :refer [programs with-programs let-programs] :as sh])
+
+;(defn sum [a b] (+ a b))
+;
+;(defn get-cpus [] (->> (sh/execute "top" "-b" "-n" "1" {:seq true})
+;                       (filter (fn [line] (str/starts-with? line "%Cpu(s):")))
+;                       (first)
+;                       (re-matcher #"(.+):  (.+) us,  (.+) sy,  (.+) ni, (.+) id,  (.+) wa,  (.+) hi,  (.+) si,  (.+) st")
+;                       (re-find)
+;                       (rest)
+;                       (rest)
+;                       ))
+;(get-cpus)
